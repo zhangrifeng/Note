@@ -1,5 +1,10 @@
 * 下载opencv，和cmake
 * 【【无需配置JSON文件！】Windows下使用cmake和MinGW配置openCV(c++)环境】 https://www.bilibili.com/video/BV1Kt421b7Lo/?p=4&share_source=copy_web&vd_source=f5e7b5772ac4045022874a0cd2f8d08a
+* 用cmake-gui去构建生成makefile，再在构建的目录下执行这两行命令去编译和安装
+```
+minGW32-make -j8
+minGW32-make install
+```
 * 目前成功了，CMakeLists文件如下：
 ```
 cmake_minimum_required(VERSION 3.10.0)
