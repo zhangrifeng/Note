@@ -13,6 +13,10 @@ git remote -v
 ```
 git remote set-url origin <新远程仓库地址>
 ```
+- 查看git的状态（修改了哪些文件，哪些文件未提交）
+```
+git status
+```
 4. 添加文件到 Git 暂存区
 ```
 git add .
