@@ -1,4 +1,11 @@
 # git命令
+
+## 初始化Git仓库（如果还没初始化）在zhang目录下打开终端（命令行）执行： 
+```
+cd zhang
+git init
+```
+
 1. 关联远程仓库
 ```
 git remote add origin <远程仓库地址>
