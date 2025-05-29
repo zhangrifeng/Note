@@ -42,3 +42,9 @@ git fetch origin
 # 比如只拉取src和include目录下的更新
 git checkout origin/master -- src/ include/
 ```
+8. 不想提交这些文件，但希望它们仍然留在本地
+```
+git rm --cached (文件名)
+# 比如
+git rm --cached main.cc
+```
