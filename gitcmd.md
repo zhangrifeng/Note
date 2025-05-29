@@ -1,6 +1,6 @@
 # git命令
 
-## 初始化Git仓库（如果还没初始化）在zhang目录下打开终端（命令行）执行： 
+### 初始化Git仓库（如果还没初始化）在zhang目录下打开终端（命令行）执行： 
 ```
 cd zhang
 git init
@@ -37,6 +37,19 @@ git add filename.cpp
 git commit -m "提交描述信息"
 # 示例
 git commit -m "修复Bug，优化算法"
+```
+
+### 如果是第一次推送（且远程仓库为空），执行：
+```
+git branch -M main
+git push -u origin main
+```
+
+### 如果远程仓库已有内容（或你用的是master分支），则需处理冲突或合并，常见命令为：
+```
+git pull origin main --allow-unrelated-histories
+# 解决冲突后再推送
+git push -u origin main
 ```
 6. 推送到远程仓库
 ```
