@@ -68,3 +68,9 @@ git rm --cached (文件名)
 # 比如
 git rm --cached main.cc
 ```
+
+### 删除错误的远程仓库
+```
+git remote remove origin
+
+```
